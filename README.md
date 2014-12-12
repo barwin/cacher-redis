@@ -15,7 +15,7 @@ Additionally, it can take an existing redis connection and resuse it:
 ```JavaScript
 var redisClient = require('redis').createClient()
 var CacherRedis = require('cacher-redis')
-var Cacher = requrie('cacher')
+var Cacher = require('cacher')
 var cacher = new Cacher(new CacherRedis(redisClient))
 ```
 
